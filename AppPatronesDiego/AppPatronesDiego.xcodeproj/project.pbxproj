@@ -38,6 +38,18 @@
 		520EB9CE2B645C970014D091 /* DetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9CD2B645C970014D091 /* DetailUseCase.swift */; };
 		520EB9CF2B645C970014D091 /* DetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9CD2B645C970014D091 /* DetailUseCase.swift */; };
 		520EB9D02B645C970014D091 /* DetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9CD2B645C970014D091 /* DetailUseCase.swift */; };
+		520EB9D22B645E250014D091 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D12B645E250014D091 /* DetailModel.swift */; };
+		520EB9D32B645E250014D091 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D12B645E250014D091 /* DetailModel.swift */; };
+		520EB9D42B645E250014D091 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D12B645E250014D091 /* DetailModel.swift */; };
+		520EB9D82B645E6C0014D091 /* LoginStatusLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D52B645E6C0014D091 /* LoginStatusLoad.swift */; };
+		520EB9D92B645E6C0014D091 /* LoginStatusLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D52B645E6C0014D091 /* LoginStatusLoad.swift */; };
+		520EB9DA2B645E6C0014D091 /* LoginStatusLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D52B645E6C0014D091 /* LoginStatusLoad.swift */; };
+		520EB9DB2B645E6C0014D091 /* SplashStatusLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D62B645E6C0014D091 /* SplashStatusLoad.swift */; };
+		520EB9DC2B645E6C0014D091 /* SplashStatusLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D62B645E6C0014D091 /* SplashStatusLoad.swift */; };
+		520EB9DD2B645E6C0014D091 /* SplashStatusLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D62B645E6C0014D091 /* SplashStatusLoad.swift */; };
+		520EB9DE2B645E6C0014D091 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D72B645E6C0014D091 /* HeroModel.swift */; };
+		520EB9DF2B645E6C0014D091 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D72B645E6C0014D091 /* HeroModel.swift */; };
+		520EB9E02B645E6C0014D091 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D72B645E6C0014D091 /* HeroModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +89,10 @@
 		520EB9C52B645C7E0014D091 /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
 		520EB9C92B645C870014D091 /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
 		520EB9CD2B645C970014D091 /* DetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUseCase.swift; sourceTree = "<group>"; };
+		520EB9D12B645E250014D091 /* DetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		520EB9D52B645E6C0014D091 /* LoginStatusLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginStatusLoad.swift; sourceTree = "<group>"; };
+		520EB9D62B645E6C0014D091 /* SplashStatusLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashStatusLoad.swift; sourceTree = "<group>"; };
+		520EB9D72B645E6C0014D091 /* HeroModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +228,10 @@
 		520EB9A92B645AF60014D091 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				520EB9D72B645E6C0014D091 /* HeroModel.swift */,
+				520EB9D52B645E6C0014D091 /* LoginStatusLoad.swift */,
+				520EB9D62B645E6C0014D091 /* SplashStatusLoad.swift */,
+				520EB9D12B645E250014D091 /* DetailModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -391,11 +411,15 @@
 				520EB9C22B645C3D0014D091 /* HTTPResponseCodes.swift in Sources */,
 				520EB9B02B645BB00014D091 /* UserDefaultsHelper.swift in Sources */,
 				520EB9742B645A170014D091 /* AppDelegate.swift in Sources */,
+				520EB9DB2B645E6C0014D091 /* SplashStatusLoad.swift in Sources */,
 				520EB9BE2B645C250014D091 /* HTTPMethods.swift in Sources */,
 				520EB9B62B645BF20014D091 /* EndPoints.swift in Sources */,
 				520EB9762B645A170014D091 /* SceneDelegate.swift in Sources */,
 				520EB9BA2B645C010014D091 /* NetworkError.swift in Sources */,
 				520EB9CE2B645C970014D091 /* DetailUseCase.swift in Sources */,
+				520EB9D82B645E6C0014D091 /* LoginStatusLoad.swift in Sources */,
+				520EB9DE2B645E6C0014D091 /* HeroModel.swift in Sources */,
+				520EB9D22B645E250014D091 /* DetailModel.swift in Sources */,
 				520EB9C62B645C7E0014D091 /* LoginUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,11 +429,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				520EB9BF2B645C250014D091 /* HTTPMethods.swift in Sources */,
+				520EB9DF2B645E6C0014D091 /* HeroModel.swift in Sources */,
+				520EB9D92B645E6C0014D091 /* LoginStatusLoad.swift in Sources */,
 				520EB9B12B645BB00014D091 /* UserDefaultsHelper.swift in Sources */,
 				520EB9CF2B645C970014D091 /* DetailUseCase.swift in Sources */,
+				520EB9DC2B645E6C0014D091 /* SplashStatusLoad.swift in Sources */,
 				520EB9BB2B645C010014D091 /* NetworkError.swift in Sources */,
 				520EB9C32B645C3D0014D091 /* HTTPResponseCodes.swift in Sources */,
 				520EB9C72B645C7E0014D091 /* LoginUseCase.swift in Sources */,
+				520EB9D32B645E250014D091 /* DetailModel.swift in Sources */,
 				520EB9B72B645BF20014D091 /* EndPoints.swift in Sources */,
 				520EB9CB2B645C870014D091 /* HomeUseCase.swift in Sources */,
 				520EB98B2B645A190014D091 /* AppPatronesDiegoTests.swift in Sources */,
@@ -424,11 +452,15 @@
 				520EB9C42B645C3D0014D091 /* HTTPResponseCodes.swift in Sources */,
 				520EB9B22B645BB00014D091 /* UserDefaultsHelper.swift in Sources */,
 				520EB9952B645A190014D091 /* AppPatronesDiegoUITests.swift in Sources */,
+				520EB9DD2B645E6C0014D091 /* SplashStatusLoad.swift in Sources */,
 				520EB9C02B645C250014D091 /* HTTPMethods.swift in Sources */,
 				520EB9B82B645BF20014D091 /* EndPoints.swift in Sources */,
 				520EB9972B645A190014D091 /* AppPatronesDiegoUITestsLaunchTests.swift in Sources */,
 				520EB9BC2B645C010014D091 /* NetworkError.swift in Sources */,
 				520EB9D02B645C970014D091 /* DetailUseCase.swift in Sources */,
+				520EB9DA2B645E6C0014D091 /* LoginStatusLoad.swift in Sources */,
+				520EB9E02B645E6C0014D091 /* HeroModel.swift in Sources */,
+				520EB9D42B645E250014D091 /* DetailModel.swift in Sources */,
 				520EB9C82B645C7E0014D091 /* LoginUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
