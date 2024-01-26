@@ -399,6 +399,7 @@
 		520EB9FB2B645FE10014D091 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				520EBA1D2B64603D0014D091 /* CellCustom */,
 				520EBA152B6460390014D091 /* HomeTableViewController.swift */,
 				520EBA162B6460390014D091 /* HomeTableViewController.xib */,
 			);
@@ -408,7 +409,6 @@
 		520EB9FC2B645FEA0014D091 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				520EBA1D2B64603D0014D091 /* CellCustom */,
 				520EBA0D2B6460150014D091 /* DetailViewController.swift */,
 				520EBA0E2B6460160014D091 /* DetailViewController.xib */,
 			);
