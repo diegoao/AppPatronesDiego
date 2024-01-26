@@ -50,6 +50,21 @@
 		520EB9DE2B645E6C0014D091 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D72B645E6C0014D091 /* HeroModel.swift */; };
 		520EB9DF2B645E6C0014D091 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D72B645E6C0014D091 /* HeroModel.swift */; };
 		520EB9E02B645E6C0014D091 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9D72B645E6C0014D091 /* HeroModel.swift */; };
+		520EB9E22B645EE40014D091 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9E12B645EE40014D091 /* UIImageView.swift */; };
+		520EB9E32B645EE40014D091 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9E12B645EE40014D091 /* UIImageView.swift */; };
+		520EB9E42B645EE40014D091 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9E12B645EE40014D091 /* UIImageView.swift */; };
+		520EB9EA2B645F3E0014D091 /* DetailHeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9E92B645F3E0014D091 /* DetailHeroViewModel.swift */; };
+		520EB9EB2B645F3E0014D091 /* DetailHeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9E92B645F3E0014D091 /* DetailHeroViewModel.swift */; };
+		520EB9EC2B645F3E0014D091 /* DetailHeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9E92B645F3E0014D091 /* DetailHeroViewModel.swift */; };
+		520EB9EE2B645F460014D091 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9ED2B645F460014D091 /* HomeViewModel.swift */; };
+		520EB9EF2B645F460014D091 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9ED2B645F460014D091 /* HomeViewModel.swift */; };
+		520EB9F02B645F460014D091 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9ED2B645F460014D091 /* HomeViewModel.swift */; };
+		520EB9F22B645F4A0014D091 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9F12B645F4A0014D091 /* LoginViewModel.swift */; };
+		520EB9F32B645F4A0014D091 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9F12B645F4A0014D091 /* LoginViewModel.swift */; };
+		520EB9F42B645F4A0014D091 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9F12B645F4A0014D091 /* LoginViewModel.swift */; };
+		520EB9F62B645F520014D091 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9F52B645F520014D091 /* SplashViewModel.swift */; };
+		520EB9F72B645F520014D091 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9F52B645F520014D091 /* SplashViewModel.swift */; };
+		520EB9F82B645F520014D091 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EB9F52B645F520014D091 /* SplashViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +108,11 @@
 		520EB9D52B645E6C0014D091 /* LoginStatusLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginStatusLoad.swift; sourceTree = "<group>"; };
 		520EB9D62B645E6C0014D091 /* SplashStatusLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashStatusLoad.swift; sourceTree = "<group>"; };
 		520EB9D72B645E6C0014D091 /* HeroModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
+		520EB9E12B645EE40014D091 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		520EB9E92B645F3E0014D091 /* DetailHeroViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailHeroViewModel.swift; sourceTree = "<group>"; };
+		520EB9ED2B645F460014D091 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		520EB9F12B645F4A0014D091 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		520EB9F52B645F520014D091 /* SplashViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +231,10 @@
 		520EB9A72B645AE40014D091 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				520EB9E82B645F310014D091 /* Detail */,
+				520EB9E72B645F2C0014D091 /* Home */,
+				520EB9E62B645F220014D091 /* Login */,
+				520EB9E52B645F160014D091 /* Splash */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -239,6 +263,7 @@
 		520EB9AA2B645B020014D091 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				520EB9E12B645EE40014D091 /* UIImageView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -275,6 +300,38 @@
 				520EB9C12B645C3D0014D091 /* HTTPResponseCodes.swift */,
 			);
 			path = BaseNetwork;
+			sourceTree = "<group>";
+		};
+		520EB9E52B645F160014D091 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				520EB9F52B645F520014D091 /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		520EB9E62B645F220014D091 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				520EB9F12B645F4A0014D091 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		520EB9E72B645F2C0014D091 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				520EB9ED2B645F460014D091 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		520EB9E82B645F310014D091 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				520EB9E92B645F3E0014D091 /* DetailHeroViewModel.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,11 +464,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520EB9EE2B645F460014D091 /* HomeViewModel.swift in Sources */,
+				520EB9F62B645F520014D091 /* SplashViewModel.swift in Sources */,
 				520EB9CA2B645C870014D091 /* HomeUseCase.swift in Sources */,
+				520EB9EA2B645F3E0014D091 /* DetailHeroViewModel.swift in Sources */,
+				520EB9E22B645EE40014D091 /* UIImageView.swift in Sources */,
 				520EB9C22B645C3D0014D091 /* HTTPResponseCodes.swift in Sources */,
 				520EB9B02B645BB00014D091 /* UserDefaultsHelper.swift in Sources */,
 				520EB9742B645A170014D091 /* AppDelegate.swift in Sources */,
 				520EB9DB2B645E6C0014D091 /* SplashStatusLoad.swift in Sources */,
+				520EB9F22B645F4A0014D091 /* LoginViewModel.swift in Sources */,
 				520EB9BE2B645C250014D091 /* HTTPMethods.swift in Sources */,
 				520EB9B62B645BF20014D091 /* EndPoints.swift in Sources */,
 				520EB9762B645A170014D091 /* SceneDelegate.swift in Sources */,
@@ -430,11 +492,16 @@
 			files = (
 				520EB9BF2B645C250014D091 /* HTTPMethods.swift in Sources */,
 				520EB9DF2B645E6C0014D091 /* HeroModel.swift in Sources */,
+				520EB9E32B645EE40014D091 /* UIImageView.swift in Sources */,
+				520EB9F72B645F520014D091 /* SplashViewModel.swift in Sources */,
+				520EB9EF2B645F460014D091 /* HomeViewModel.swift in Sources */,
 				520EB9D92B645E6C0014D091 /* LoginStatusLoad.swift in Sources */,
 				520EB9B12B645BB00014D091 /* UserDefaultsHelper.swift in Sources */,
 				520EB9CF2B645C970014D091 /* DetailUseCase.swift in Sources */,
+				520EB9EB2B645F3E0014D091 /* DetailHeroViewModel.swift in Sources */,
 				520EB9DC2B645E6C0014D091 /* SplashStatusLoad.swift in Sources */,
 				520EB9BB2B645C010014D091 /* NetworkError.swift in Sources */,
+				520EB9F32B645F4A0014D091 /* LoginViewModel.swift in Sources */,
 				520EB9C32B645C3D0014D091 /* HTTPResponseCodes.swift in Sources */,
 				520EB9C72B645C7E0014D091 /* LoginUseCase.swift in Sources */,
 				520EB9D32B645E250014D091 /* DetailModel.swift in Sources */,
@@ -448,11 +515,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520EB9F02B645F460014D091 /* HomeViewModel.swift in Sources */,
+				520EB9F82B645F520014D091 /* SplashViewModel.swift in Sources */,
 				520EB9CC2B645C870014D091 /* HomeUseCase.swift in Sources */,
+				520EB9EC2B645F3E0014D091 /* DetailHeroViewModel.swift in Sources */,
+				520EB9E42B645EE40014D091 /* UIImageView.swift in Sources */,
 				520EB9C42B645C3D0014D091 /* HTTPResponseCodes.swift in Sources */,
 				520EB9B22B645BB00014D091 /* UserDefaultsHelper.swift in Sources */,
 				520EB9952B645A190014D091 /* AppPatronesDiegoUITests.swift in Sources */,
 				520EB9DD2B645E6C0014D091 /* SplashStatusLoad.swift in Sources */,
+				520EB9F42B645F4A0014D091 /* LoginViewModel.swift in Sources */,
 				520EB9C02B645C250014D091 /* HTTPMethods.swift in Sources */,
 				520EB9B82B645BF20014D091 /* EndPoints.swift in Sources */,
 				520EB9972B645A190014D091 /* AppPatronesDiegoUITestsLaunchTests.swift in Sources */,
