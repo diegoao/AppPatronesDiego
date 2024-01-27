@@ -17,10 +17,15 @@ final class LoginViewModel {
     //MARK: - Init
     init(loginUseCase: LoginUseCaseProtocol = LoginUseCase()){
         self.loginUseCase = loginUseCase
+
     }
     
     //metodo Login
     func onLoginButton(email: String?, password: String?) {
+        // Elimino los mensajes al entrar en la función para que solo muestre
+        // el error que debería
+        loginViewState?(.showErrorEmail(""))
+        loginViewState?(.showErrorEmail(""))
         loginViewState?(.loading(true))
         
         //Check email

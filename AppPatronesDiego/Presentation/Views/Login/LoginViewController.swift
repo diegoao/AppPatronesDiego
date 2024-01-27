@@ -89,7 +89,7 @@ extension LoginViewController {
 extension LoginViewController {
     func findToken(){
         guard let _ = UserDefaultsHelper.getToken() else {
-           print("No existe token ")
+           print("No existe token")
             return
         }
          navigateToHome()
