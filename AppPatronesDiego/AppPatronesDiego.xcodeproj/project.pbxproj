@@ -95,6 +95,10 @@
 		520EBA232B64604A0014D091 /* CellCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EBA1F2B64604A0014D091 /* CellCustomTableViewCell.swift */; };
 		520EBA242B64604A0014D091 /* CellCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EBA1F2B64604A0014D091 /* CellCustomTableViewCell.swift */; };
 		520EBA252B64604A0014D091 /* CellCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EBA1F2B64604A0014D091 /* CellCustomTableViewCell.swift */; };
+		520EBA272B65A59B0014D091 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EBA262B65A59B0014D091 /* TestModel.swift */; };
+		520EBA2C2B663D460014D091 /* LoginUseCaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EBA2B2B663D460014D091 /* LoginUseCaseTest.swift */; };
+		520EBA2E2B6651D40014D091 /* homeUseCaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EBA2D2B6651D40014D091 /* homeUseCaseTest.swift */; };
+		520EBA302B6673020014D091 /* DetailUseCaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520EBA2F2B6673020014D091 /* DetailUseCaseTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +157,10 @@
 		520EBA162B6460390014D091 /* HomeTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewController.xib; sourceTree = "<group>"; };
 		520EBA1E2B6460490014D091 /* CellCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellCustomTableViewCell.xib; sourceTree = "<group>"; };
 		520EBA1F2B64604A0014D091 /* CellCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCustomTableViewCell.swift; sourceTree = "<group>"; };
+		520EBA262B65A59B0014D091 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		520EBA2B2B663D460014D091 /* LoginUseCaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCaseTest.swift; sourceTree = "<group>"; };
+		520EBA2D2B6651D40014D091 /* homeUseCaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeUseCaseTest.swift; sourceTree = "<group>"; };
+		520EBA2F2B6673020014D091 /* DetailUseCaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUseCaseTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +227,10 @@
 			isa = PBXGroup;
 			children = (
 				520EB98A2B645A190014D091 /* AppPatronesDiegoTests.swift */,
+				520EBA262B65A59B0014D091 /* TestModel.swift */,
+				520EBA2B2B663D460014D091 /* LoginUseCaseTest.swift */,
+				520EBA2D2B6651D40014D091 /* homeUseCaseTest.swift */,
+				520EBA2F2B6673020014D091 /* DetailUseCaseTest.swift */,
 			);
 			path = AppPatronesDiegoTests;
 			sourceTree = "<group>";
@@ -608,19 +620,23 @@
 				520EB9D92B645E6C0014D091 /* LoginStatusLoad.swift in Sources */,
 				520EBA102B6460160014D091 /* DetailViewController.swift in Sources */,
 				520EB9B12B645BB00014D091 /* UserDefaultsHelper.swift in Sources */,
+				520EBA2E2B6651D40014D091 /* homeUseCaseTest.swift in Sources */,
 				520EB9CF2B645C970014D091 /* DetailUseCase.swift in Sources */,
 				520EBA0B2B6460050014D091 /* LoginViewController.swift in Sources */,
 				520EB9EB2B645F3E0014D091 /* DetailHeroViewModel.swift in Sources */,
 				520EB9DC2B645E6C0014D091 /* SplashStatusLoad.swift in Sources */,
 				520EBA182B6460390014D091 /* HomeTableViewController.swift in Sources */,
 				520EB9BB2B645C010014D091 /* NetworkError.swift in Sources */,
+				520EBA2C2B663D460014D091 /* LoginUseCaseTest.swift in Sources */,
 				520EB9F32B645F4A0014D091 /* LoginViewModel.swift in Sources */,
 				520EB9C32B645C3D0014D091 /* HTTPResponseCodes.swift in Sources */,
 				520EB9C72B645C7E0014D091 /* LoginUseCase.swift in Sources */,
 				520EBA242B64604A0014D091 /* CellCustomTableViewCell.swift in Sources */,
 				520EBA002B645FF90014D091 /* SplashViewController.swift in Sources */,
+				520EBA302B6673020014D091 /* DetailUseCaseTest.swift in Sources */,
 				520EB9D32B645E250014D091 /* DetailModel.swift in Sources */,
 				520EB9B72B645BF20014D091 /* EndPoints.swift in Sources */,
+				520EBA272B65A59B0014D091 /* TestModel.swift in Sources */,
 				520EB9CB2B645C870014D091 /* HomeUseCase.swift in Sources */,
 				520EB98B2B645A190014D091 /* AppPatronesDiegoTests.swift in Sources */,
 			);

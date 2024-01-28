@@ -86,3 +86,32 @@ final class DetailUseCase: DetailUseCaseProtocol {
         task.resume()
     }
 }
+
+
+//MARK: - Fake Success
+final class DetailUseCaseFakeSuccess: DetailUseCaseProtocol {
+    func getDetail(onSucess: @escaping ([DetailModel]) -> Void, onError: @escaping (NetworkError) -> Void) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            let heroe = [DetailModel(id: "1", name: "Goku", description: "Strong", photo: "", favorite: true)]
+            onSucess(heroe)
+        }
+    }
+    
+    func nameHero(name: String) {
+        return
+    }
+}
+   
+//MARK: - Fake Error
+final class DetailUseCaseFakeError: DetailUseCaseProtocol {
+    func getDetail(onSucess: @escaping ([DetailModel]) -> Void, onError: @escaping (NetworkError) -> Void) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            onError(.malformedURL)
+        }
+    }
+    
+    func nameHero(name: String) {
+        return
+    }
+}
+

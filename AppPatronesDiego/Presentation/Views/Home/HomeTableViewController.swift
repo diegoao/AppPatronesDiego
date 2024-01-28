@@ -7,8 +7,6 @@
 import UIKit
 
 class HomeTableViewController: UIViewController {
-//    typealias DataSource = UITableViewDiffableDataSource<Int,HeroModel>
-//    typealias Snapshot = NSDiffableDataSourceSnapshot<Int, HeroModel>
     
     //IBOutlets
     
@@ -17,7 +15,7 @@ class HomeTableViewController: UIViewController {
     
     //ViewModel
     private var homeViewModel: HomeViewModel
-//    private var dataSource: DataSource?
+
     
     //Init
     init(homeViewModel: HomeViewModel = HomeViewModel()){

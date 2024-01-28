@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct DetailModel: Decodable {
+struct DetailModel: Decodable, Equatable {
     let id: String
     let name: String
     let description: String

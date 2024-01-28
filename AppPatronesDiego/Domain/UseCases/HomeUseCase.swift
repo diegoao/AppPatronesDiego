@@ -79,9 +79,9 @@ final class HomeUseCase: HomeUseCaseProtocol {
 final class HomeUseCaseFakeSuccess: HomeUseCaseProtocol {
     func getHeroes(onSucess: @escaping ([HeroModel]) -> Void, onError: @escaping (NetworkError) -> Void) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            let heroes = [HeroModel(id: "1", name: "Diego", description: "Superman", photo: "", favorite: true),
-                          HeroModel(id: "2", name: "Alejandro", description: "Spiderman", photo: "", favorite: false),
-                          HeroModel(id: "3", name: "Rocio", description: "Super Woman", photo: "", favorite: false)]
+            let heroes = [HeroModel(id: "1", name: "Clark Kent", description: "Superman", photo: "", favorite: true),
+                          HeroModel(id: "2", name: "Peter Parker", description: "Spiderman", photo: "", favorite: false),
+                          HeroModel(id: "3", name: "Tony Stark", description: "IronMan", photo: "", favorite: false)]
             onSucess(heroes)
         }
     }

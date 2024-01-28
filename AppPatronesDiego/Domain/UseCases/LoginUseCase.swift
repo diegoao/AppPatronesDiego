@@ -80,11 +80,12 @@ final class LoginUseCase: LoginUseCaseProtocol {
 }
 
 
+
 //MARK: - LOGIN USE CASE FAKE SUCCESS
 final class LoginUseCaseFakeSuccess: LoginUseCaseProtocol{
     func login(user: String, password: String, onSucces: @escaping (String?) -> Void, onError: @escaping (NetworkError) -> Void) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 3 ) {
-            let token = "123456"
+            let token = "123456789123456789"
             onSucces(token)
         }
     }
@@ -96,7 +97,7 @@ final class LoginUseCaseFakeSuccess: LoginUseCaseProtocol{
 final class LoginUseCaseFakeError: LoginUseCaseProtocol{
     func login(user: String, password: String, onSucces: @escaping (String?) -> Void, onError: @escaping (NetworkError) -> Void) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 3 ) {
-            onError(.tokenFormatError)
+            onError(.noData)
         }
     }
 }

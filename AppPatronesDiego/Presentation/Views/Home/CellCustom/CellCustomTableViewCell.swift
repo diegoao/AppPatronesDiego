@@ -26,6 +26,4 @@ class CellCustomTableViewCell: UITableViewCell {
         }
         imageHero.setImage(url: imageURL)
     }
-
-    
 }
