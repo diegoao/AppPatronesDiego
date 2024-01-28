@@ -7,6 +7,7 @@ Práctica realizada para el módulo de Patrones de diseño por Diego Andrades.
 
 <<Importante.- En este caso basamos la estructura de la aplicaión en "MVVM">>
 El proyecto trata de una App enfocada en DragonBall con la cual realizamos una conexión a una API y visualizamos sus datos.
+- Implementamos testing.
 
 
 
